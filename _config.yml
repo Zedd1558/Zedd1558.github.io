@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Zahid"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Md Zahidul Islam"
+name                     : "Zahidul Islam"
 description              : "my personal blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -35,12 +35,13 @@ comments:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:              # something.com
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
   utterances:
-    theme                : "github-dark"   # "github-light" (default), 
+    theme                : "github-dark" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   staticman:
     branch               : # "master"
@@ -94,9 +95,9 @@ analytics:
 author:
   name             : "Md Zahidul Islam"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "CS undergrad with a keen interest in Computer Vision and Deep Learning"
-  location         : "Dhaka, Bangladesh"
-  email            : "zahidulislam@iut-dhaka.edu"
+  bio              : "a CS undergrad with a keen interest in Deep Learning and Computer Vision"
+  location         : "Somewhere"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -109,7 +110,7 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/Zahid1558"
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Zedd1558"
@@ -125,10 +126,10 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/Zahid1558"
+      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Zedd1558"
+      # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -278,10 +279,3 @@ defaults:
       comments: # true
       share: true
       related: true
-# pages
-- scope: 
-    path: ""
-    type: pages
-  values:
-    layout: single
-    author_profile: true  
