@@ -42,9 +42,9 @@ Here's and image:
 <img src="{{site.url}}{{site.baseurl}}/assets/images/cotton candy.jpg" alt="a picture of cotton candy">
 
 Here is another way:
-![alt]("{{ site.url }}{{ site.baseurl }}/assets/images/cottong candy.jpg")
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/cottong candy.jpg)
 
 Here's some maths:
 $$z=x+y$$
 
-You can also inline $$z=x+y$$.
+You can also do it inline $$z=x+y$$.
