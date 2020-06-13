@@ -1,15 +1,8 @@
 # main links
 main:
+  - title: "Posts"
+    url: /year-archive/
+    description: "all my posts"
   - title: "About me"
     url: /about/
     description: "a short introduction"
-  - title: "posts"
-    url: /year-archive/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
