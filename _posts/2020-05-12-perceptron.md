@@ -6,6 +6,7 @@ header:
     image: "/assets/images/cotton candy.jpg"
 excerpt: "Machine Learning, Perceptron, Data Science"
 mathjax: true
+comments: true
 ---
 
 # H1 Heading
