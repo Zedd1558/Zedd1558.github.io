@@ -2,8 +2,9 @@
 main:
   - title: "About me"
     url: /about/
-  - title: "Deep Learning"
-    url: /deep-learning/
+    description: "a short introduction"
+  - title: "posts"
+    url: /year-archive/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
