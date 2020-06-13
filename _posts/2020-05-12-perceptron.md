@@ -43,7 +43,7 @@ Here's and image:
 
 Here is another way:
 
-![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/cottong candy.jpg)
+![alt text]({{ site.url }}{{ site.baseurl }}/assets/images/cotton candy.jpg)
 
 Here's some maths:
 $$z=x+y$$
