@@ -6,5 +6,9 @@ main:
   - title: "About me"
     url: /about/
     description: "a short introduction"
-  - title: "Sitemap"
-    url: /sitemap/
+  
+  
+  
+  
+  #- title: "Sitemap"
+  #  url: /sitemap/
