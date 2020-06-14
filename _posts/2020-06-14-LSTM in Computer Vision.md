@@ -22,7 +22,7 @@ Vanilla LSTMs work with 1-dimensional embeddings or features. A pretrained CNN c
 
 Here is a diagram on a typical CNN.
 
-<img src="{{site.url}}{{site.baseurl}}/assets/images/figures/CNN.png" alt="a figure of CNN">
+<img src="{{site.url}}{{site.baseurl}}/assets/images/figures/cnn.png" alt="a figure of CNN">
 
 Here is a diagram of basic CNN-LSTM architecture.
 
