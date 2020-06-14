@@ -8,6 +8,7 @@ tags:
   - lstm
   - computer vision
 classes: wide  
+comments: true
 ---
 
 LSTM has always been widely successful in Natural Language Processing tasks. It is particularly designed for processing sequence and language is a sequence of words.
