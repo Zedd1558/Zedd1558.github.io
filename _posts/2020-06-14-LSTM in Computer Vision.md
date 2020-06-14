@@ -7,9 +7,11 @@ categories:
 tags:
   - lstm
   - computer vision
+classes: wide  
 ---
 
 LSTM have always been widely successful in Natural Language Processin. It is particularly designed for processing sequence and language is a sequence of words.
+
 Let's say we have a dataset of imdb reviews and we want to classify them into positive reviews and negative ones. First we encode all the words into their corresponding word embeddings. Word embeddings are vectors or 1d arrays. Each word has a unique embedding. Neural network only deals with numerical values; not strings or characters. That's why representing each word with an embedding is necessary. Then these embeddings are fed into an LSTM cell one by one. The hidden state of the previous cell state is fed back again in the cell by a feedback loop. The output of the drawn from the last cell state.
 
 <img src="{{site.url}}{{site.baseurl}}/assets/images/figures/lstm.png" alt="a figure of LSTM">
