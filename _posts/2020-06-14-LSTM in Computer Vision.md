@@ -32,11 +32,11 @@ Here is a diagram of basic CNN-LSTM architecture.
 
 However, Vanilla 1d LSTM doesn't take into account spatial information. But,exploiting spatial features learned by CNNs can provide better spatio-temporal feature learning.
 
-That is where `convLSTM2D` comes in. They take in 2d features instead of 1d and also output 2d features. In vanilla LSTM the inner gates or connections are connected by dense weights. But, in `convLSTM2D`, they are replaced with convolution operations. Because, connecting 2d layers with dense weights would cost huge number of parameters.This is same reason why in CNNs, the 2d feature layers are connected by convolution operations. 
+That is where `ConvLSTM2D` comes in. They take in 2d features instead of 1d and also output 2d features. The output of the layer just before the Dense layers in a pretrained CNN gives us 2d features. In vanilla LSTM the inner gates or connections are connected by dense weights. But, in `ConvLSTM2D`, they are replaced with convolution operations. Because, connecting 2d layers with dense weights would cost huge number of parameters.This is same reason why in CNNs, the 2d feature layers are connected by convolution operations. 
 
 <img src="{{site.url}}{{site.baseurl}}/assets/images/figures/cnnconvlstm.png" alt="a figure of CNN-convLSTM">
 
-Here are the codes to build a basic `CNN-convLSTM` model in `Keras`. Each video input has 32 frames. Each has a shape of (224,224,3). So, input shape is (32,224,224,3). We can choose whether to train the pretrained CNN further using `trainable` variable.
+Here are the codes to build a basic `CNN-convLSTM` model in `Keras`. Each video input has 32 frames. Each has a shape of (224,224,3). So, input shape is (32,224,224,3). We can choose whether to train the pretrained CNN further using `trainable` variable. `include_top = false` chops off all the dense layers. So, we get 2d features as outputs of the model. `TimeDistributed` is used because we are repeating the same CNN for all the timesteps/frames of the video. You can learn more from keras documentations of `ConvLSTM2D`
 
 ```python
 
