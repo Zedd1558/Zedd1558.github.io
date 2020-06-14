@@ -56,7 +56,7 @@ def CNN_ConvLSTMmodel():
 
 ```
 
-I hope from this article, we get a basic idea of how `CNN-LSTM` architectures work. To get more deeper understanding do visit the following links and try to play with them yourself.
+I hope from this article, we get a basic idea of how `CNN-LSTM` architectures work. To get more about `CNN-LSTM` do visit the following links and try to play with them yourself.
 
 
 1. [Understading LSTM - Colah's blog][colah-blog]
