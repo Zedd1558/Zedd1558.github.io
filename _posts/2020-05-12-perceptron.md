@@ -4,7 +4,7 @@ date: 2020-05-12
 tags: [deep learning, data science]
 header:
     image: "/assets/images/cotton candy.jpg"
-excerpt: "Machine Learning, Perceptron, Data Science"
+excerpt: "A short intro of perceptron"
 mathjax: true
 comments: true
 ---
