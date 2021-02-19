@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "my CV"
+    url: https://github.com/Zedd1558/Zedd1558.github.io/blob/master/CV_Md.%20Zahidul%20Islam.pdf
   - title: "Posts"
     url: /year-archive/
     description: "all my posts"
