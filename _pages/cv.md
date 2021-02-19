@@ -3,10 +3,7 @@ title: "My CV"
 permalink: /cv/
 ---
 
-<object data="https://github.com/Zedd1558/zedd1558.github.io/blob/master/CV_Md.%20Zahidul%20Islam.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/Zedd1558/zedd1558.github.io/blob/master/CV_Md.%20Zahidul%20Islam.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/Zedd1558/zedd1558.github.io/blob/master/CV_Md.%20Zahidul%20Islam.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<embed src="https://github.com/Zedd1558/zedd1558.github.io/blob/master/CV_Md.%20Zahidul%20Islam.pdf" width="500" height="375" 
+ type="application/pdf">
 
 <p>If the PDF of my CV is not visible on the screen, pease download the PDF to view it: <a href="https://github.com/Zedd1558/zedd1558.github.io/blob/master/CV_Md.%20Zahidul%20Islam.pdf">Download PDF</a>.</p>
