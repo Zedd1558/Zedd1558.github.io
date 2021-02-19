@@ -1,8 +1,10 @@
 ---
 title: "About Me"
 permalink: /cv/
-header: 
-    image: "/assets/images/about cover.jpg"
 ---
 
-Hi, I'm Zahid. A computer science and engineering undergraduate (final semester) at Islamic Universtiy of Technology. I have a keen interest in Computer Vision and Deep learning. Currently, I am doing my final year thesis on "Automatic detection of violence from surveillance footage". I am active on [github](https://github.com/Zedd1558) and like to develop small projects as a hobby.  
+<object data="https://github.com/Zedd1558/zedd1558.github.io/blob/master/CV_Md.%20Zahidul%20Islam.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/Zedd1558/zedd1558.github.io/blob/master/CV_Md.%20Zahidul%20Islam.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/Zedd1558/zedd1558.github.io/blob/master/CV_Md.%20Zahidul%20Islam.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
