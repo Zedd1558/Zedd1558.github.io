@@ -8,3 +8,5 @@ permalink: /cv/
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/Zedd1558/zedd1558.github.io/blob/master/CV_Md.%20Zahidul%20Islam.pdf">Download PDF</a>.</p>
     </embed>
 </object>
+
+<p>If the PDF of my CV is not visible on the screen, pease download the PDF to view it: <a href="https://github.com/Zedd1558/zedd1558.github.io/blob/master/CV_Md.%20Zahidul%20Islam.pdf">Download PDF</a>.</p>
